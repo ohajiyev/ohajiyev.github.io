@@ -16,7 +16,16 @@ h3 {
   padding: auto;
 }
 
-p, li {
+p {
+  font-size: 16px;
+}
+
+ul {
+  font-size: 16px;
+  padding-top: -5px;
+}
+
+li {
   font-size: 16px;
 }
 
