@@ -1,0 +1,26 @@
+html {
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  width: 50%;
+  margin: auto;
+  padding: auto;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+
+p, li {
+  font-size: 16px;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
