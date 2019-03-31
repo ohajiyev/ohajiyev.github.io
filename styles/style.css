@@ -1,6 +1,7 @@
 html {
   font-size: 16px;
-  font-family: 'Arial', sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  line-height: 25px;
 }
 
 body {
@@ -23,4 +24,32 @@ p, li {
 img {
   display: block;
   margin: auto;
+}
+
+/* the below context was adopted from www.w3schools.com */
+
+/* Create two equal columns that floats next to each other */
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
